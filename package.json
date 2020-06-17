@@ -1,0 +1,79 @@
+{
+  "main": "node_modules/expo/AppEntry.js",
+  "scripts": {
+    "start": "expo start",
+    "android": "expo start --android",
+    "ios": "expo start --ios",
+    "web": "expo start --web",
+    "eject": "expo eject",
+    "test": "jest --detectOpenHandles --json --forceExit",
+    "clean": "expo r -c",
+    "lint": "eslint --fix --ext .js,.jsx ."
+  },
+  "dependencies": {
+    "@react-native-community/async-storage": "^1.9.0",
+    "@react-native-community/masked-view": "0.1.5",
+    "@tensorflow-models/mobilenet": "^2.0.4",
+    "@tensorflow/tfjs": "^1.7.2",
+    "@tensorflow/tfjs-react-native": "^0.2.3",
+    "expo": "~36.0.0",
+    "expo-camera": "^8.0.0",
+    "expo-constants": "~8.0.0",
+    "expo-gl": "^8.0.0",
+    "expo-google-app-auth": "^8.1.0",
+    "expo-image-picker": "~8.0.1",
+    "expo-linear-gradient": "~8.0.0",
+    "expo-permissions": "~8.0.0",
+    "firebase": "^7.14.0",
+    "jest": "^25.3.0",
+    "jest-expo": "^36.0.1",
+    "jpeg-js": "^0.3.7",
+    "react": "~16.9.0",
+    "react-dom": "^16.9.0",
+    "react-native": "https://github.com/expo/react-native/archive/sdk-36.0.0.tar.gz",
+    "react-native-elements": "^1.2.7",
+    "react-native-fs": "^2.16.6",
+    "react-native-gesture-handler": "~1.5.0",
+    "react-native-reanimated": "~1.4.0",
+    "react-native-safe-area-context": "0.6.0",
+    "react-native-screens": "2.0.0-alpha.12",
+    "react-native-skeleton-content": "^1.0.13",
+    "react-native-web": "^0.11.7",
+    "react-navigation": "^4.3.7",
+    "react-navigation-drawer": "^2.4.11",
+    "react-navigation-stack": "^2.3.11",
+    "react-navigation-tabs": "^2.8.11"
+  },
+  "devDependencies": {
+    "babel-preset-expo": "^6.0.0",
+    "eslint": "^6.2.2",
+    "eslint-config-airbnb": "^18.0.1",
+    "eslint-config-prettier": "^6.1.0",
+    "eslint-plugin-import": "^2.18.2",
+    "eslint-plugin-jsx-a11y": "^6.2.3",
+    "eslint-plugin-prettier": "^3.1.1",
+    "eslint-plugin-react": "^7.14.3",
+    "eslint-plugin-react-hooks": "^1.7.0",
+    "grunt": "^1.1.0",
+    "grunt-browser-sync": "^2.2.0",
+    "grunt-contrib-clean": "^2.0.0",
+    "grunt-contrib-copy": "^1.0.0",
+    "grunt-contrib-imagemin": "^4.0.0",
+    "grunt-contrib-watch": "^1.1.0",
+    "prettier": "^1.18.2"
+  },
+  "jest": {
+    "projects": [
+      {
+        "preset": "jest-expo/ios"
+      },
+      {
+        "preset": "jest-expo/android"
+      }
+    ]
+  },
+  "private": true,
+  "optionalDependencies": {
+    "fsevents": "^2.1.3"
+  }
+}
