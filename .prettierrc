@@ -1,0 +1,7 @@
+{
+  "singleQuote": true,
+  "Semicolons": true,
+  "trailingComma": "es5",
+  "indent_style": true,
+  "tabWidth": 2
+}
