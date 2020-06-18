@@ -63,7 +63,7 @@ const result = await Google.logInAsync({
 
 
 
-<br> <details> <summary><b>🎷Automating Tasks<sup>Clique Aqui</sup></b></summary>
+<br> <details> <summary><b>🎷Automating Tasks<sup>Click here</sup></b></summary>
 
   <ul>
     <li><a target="_blank" rel="noopener noreferrer" href='https://www.npmjs.com/package/grunt-cli'>Grunt Cli </a></li>
