@@ -1,15 +1,14 @@
 import firebase from 'firebase';
 
-// YOU CONFIGS FIREBASE
 const firebaseConfig = {
-  apiKey: 'AIzaSyByfgKiisXwdgHHV1A6e3QFB3CAJAQk8-U',
-  authDomain: 'elated-oxide-275411.firebaseapp.com',
-  databaseURL: 'https://elated-oxide-275411.firebaseio.com',
-  projectId: 'elated-oxide-275411',
-  storageBucket: 'elated-oxide-275411.appspot.com',
-  messagingSenderId: '825197386539',
-  appId: '1:825197386539:web:2486b6eabc4bc06caf836e',
-  measurementId: 'G-GPZ9M89RDK',
+  apiKey: process.env.EXPO_PUBLIC_API_KEY,
+  authDomain: process.env.EXPO_PUBLIC_AUTH_DOMAIN,
+  databaseURL: process.env.EXPO_PUBLIC_DATABASE_URL,
+  projectId: process.env.EXPO_PUBLIC_PROJECT_ID,
+  storageBucket: process.env.EXPO_PUBLIC_STORAGE_BUCKET,
+  messagingSenderId: process.env.EXPO_PUBLIC_MESSAGING_SENDER_ID,
+  appId: process.env.EXPO_PUBLIC_APP_ID,
+  measurementId: process.env.EXPO_PUBLIC_MEASUREMENT_ID,
 };
 
 const app = firebase.initializeApp(firebaseConfig);
